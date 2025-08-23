@@ -6,4 +6,5 @@ type Poi = {
   address: string;
   phone: string;
   duration_call: string;
+  image?: string;
 };

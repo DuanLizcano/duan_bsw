@@ -37,6 +37,16 @@ body,
   color: #fff;
 }
 
+@media (max-width: 480px) {
+  .login-box {
+    width: 90%;
+    height: auto;
+    padding: 2rem 1rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+}
+
 .login-box h2 {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -147,10 +157,23 @@ body,
 .case-panel-section {
   margin-bottom: 1rem;
   background: #39394d;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   width: 100%;
-  height: 100%;
+  height: 70%;
   box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #737388;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: top;
 }
 
 @keyframes logo-spin {

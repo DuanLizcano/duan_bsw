@@ -9,6 +9,8 @@ export const inovisecLocations = [
     address: "Cl. 22c #19a-2 a 19a-56",
     phone: "+57 3513423213",
     duration_call: "3:00",
+    image:
+      "https://th.bing.com/th/id/OIP.d5KD_VW1IF7__60EBy5BcwHaLH?w=124&h=186&c=7&r=0&o=7&pid=1.7&rm=3",
   },
   {
     key: "2",
@@ -19,6 +21,8 @@ export const inovisecLocations = [
     address: "Cra. 48 # 10-45",
     phone: "+57 3001234567",
     duration_call: "5:00",
+    image:
+      "https://th.bing.com/th/id/OIP.zDARpWb7MphMC1SE9v4MjgAAAA?w=120&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
   },
   {
     key: "3",
@@ -30,6 +34,8 @@ export const inovisecLocations = [
     address: "Av. 6 # 36-25",
     phone: "+57 3009876543",
     duration_call: "4:00",
+    image:
+      "https://th.bing.com/th/id/OIP.tMY9ZmmLDAP4Z2mY_LReNgHaLH?w=123&h=185&c=7&r=0&o=5&pid=1.7",
   },
   {
     key: "4",
@@ -41,6 +47,8 @@ export const inovisecLocations = [
     address: "Cl. 76 # 45-67",
     phone: "+57 3012345678",
     duration_call: "2:30",
+    image:
+      "https://th.bing.com/th/id/OIP.ebMx2CZqPFEVKuJDG6QjPAHaLH?w=135&h=201&c=7&r=0&o=5&pid=1.7",
   },
   {
     key: "5",
@@ -51,6 +59,8 @@ export const inovisecLocations = [
     address: "Cl. 30 # 22-45",
     phone: "+57 3001234567",
     duration_call: "1:30",
+    image:
+      "https://th.bing.com/th/id/OIP.JwcdQKY6omQqK0C9pjP_CwHaJI?w=164&h=201&c=7&r=0&o=5&pid=1.7",
   },
   {
     key: "6",
@@ -61,6 +71,8 @@ export const inovisecLocations = [
     address: "Cra. 7 # 45-10",
     phone: "+57 3204567890",
     duration_call: "2:45",
+    image:
+      "https://th.bing.com/th/id/OIP.PU8HSUjYTdr0scRwHm3t8gHaFj?w=268&h=201&c=7&r=0&o=5&pid=1.7",
   },
   {
     key: "7",
@@ -71,6 +83,8 @@ export const inovisecLocations = [
     address: "Cl. 53 # 20-15",
     phone: "+57 3109876543",
     duration_call: "3:20",
+    image:
+      "https://th.bing.com/th/id/OIP.40rKTFgv7TEyLbhC44RydgAAAA?w=134&h=201&c=7&r=0&o=5&pid=1.7",
   },
   {
     key: "8",
@@ -81,5 +95,7 @@ export const inovisecLocations = [
     address: "Av. Caracas # 26-30",
     phone: "+57 3151239876",
     duration_call: "1:50",
+    image:
+      "https://th.bing.com/th/id/OIP.G-rD4HC_WlnV_390zAaZCQHaJQ?w=203&h=254&c=7&r=0&o=7&pid=1.7&rm=3",
   },
 ];
