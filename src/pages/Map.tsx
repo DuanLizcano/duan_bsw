@@ -4,14 +4,6 @@ import { PoiMarkers } from "../components/PoiMarkers";
 import { useState } from "react";
 import { CardInfo } from "../components/CardInfo";
 
-type MapProps = {
-  apiKey: string;
-  defaultCenter?: { lat: number; lng: number };
-  defaultZoom?: number;
-  gestureHandling?: "greedy" | "cooperative" | "none" | "auto";
-  disableDefaultUI?: boolean;
-};
-
 const MapContainer = (props: MapProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedPoi, setSelectedPoi] = useState<Poi | null>(null);

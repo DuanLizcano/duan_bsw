@@ -1,12 +1,5 @@
 import { AdvancedMarker, Pin } from "@vis.gl/react-google-maps";
 
-type PropsAdvancedMarker = {
-  pois: Poi[];
-  isOpen: boolean;
-  setIsOpen: (isOpen: boolean) => void;
-  setSelectedPoi: (poi: Poi | null) => void;
-};
-
 export const PoiMarkers = (props: PropsAdvancedMarker) => {
   const { setIsOpen } = props;
   return (

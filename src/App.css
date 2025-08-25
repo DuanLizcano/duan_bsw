@@ -127,6 +127,36 @@ body,
   z-index: 100;
   border-top-left-radius: 24px;
   border-bottom-left-radius: 24px;
+  transition: all 0.3s ease;
+
+   overflow-y: auto;
+}
+
+.info-window-header::-webkit-scrollbar {
+  width: 8px;
+}
+.info-window-header::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .info-window-header {
+    width: 50vw;
+    min-width: 280px;
+    max-width: none;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-window-header {
+    width: 100vw;
+    height: 100vh;
+    min-width: auto;
+    padding: 24px 16px;
+    border-radius: 0;
+  }
 }
 
 .info-window-header p {
