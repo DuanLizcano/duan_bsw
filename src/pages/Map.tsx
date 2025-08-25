@@ -8,8 +8,6 @@ const MapContainer = (props: MapProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedPoi, setSelectedPoi] = useState<Poi | null>(null);
 
-  console.log("API Key:", props.defaultCenter?.lat, " ", props.defaultCenter?.lng);
-
   return (
     <APIProvider apiKey={props.apiKey}>
       <div className="map">
@@ -20,7 +18,9 @@ const MapContainer = (props: MapProps) => {
               lat: props.defaultCenter?.lat
                 ? props.defaultCenter.lat
                 : 4.624335,
-              lng: props.defaultCenter?.lng ? props.defaultCenter.lng : -74.063644,
+              lng: props.defaultCenter?.lng
+                ? props.defaultCenter.lng
+                : -74.063644,
             }}
             defaultZoom={props.defaultZoom ? props.defaultZoom : 12}
             gestureHandling={
