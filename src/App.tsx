@@ -8,8 +8,8 @@ import ValidateAccess from "./components/ValidateAccess";
 
 function App() {
   const [pos, setPos] = useState({
-    lat: 22.54992,
-    lng: 0,
+    lat: 4.624335,
+    lng: -74.063644,
   });
 
   const apiKey = "AIzaSyB_MP2qVutqR2iDiv78LB2hjg1vSFj9lMk";
@@ -28,8 +28,8 @@ function App() {
       );
     }else {
       setPos({
-        lat: 22.54992,
-        lng: 0,
+        lat: 4.624335,
+        lng: -74.063644,
       });
     }
   }, []);
